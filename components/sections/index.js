@@ -1,0 +1,12 @@
+export { AboutSection } from "./AboutSection";
+export { AchievementsSection } from "./AchievementsSection";
+export { ContactForm } from "./ContactForm";
+export { ContactSection } from "./ContactSection";
+export { ExperienceSection } from "./ExperienceSection";
+export { HeroSection } from "./HeroSection";
+export { ServicesSection } from "./ServicesSection";
+export { TestimonialsSection } from "./TestimonialsSection";
+// export { SkillsSection } from "./SkillsSection";
+// export { BlogSection } from "./BlogSection";
+// export { EducationSection } from "./EducationSection";
+// export { ProjectsSection } from "./ProjectsSection";
