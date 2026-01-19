@@ -22,8 +22,8 @@ async function PortfolioContent() {
 			<AchievementsSection />
 			<ServicesSection />
 			<TestimonialsSection />
-			<ContactSection />
 			<FeedbackSection />
+			<ContactSection />
 		</>
 	);
 }

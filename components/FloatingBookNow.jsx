@@ -10,18 +10,16 @@ const FloatingBookNow = () => {
 				namespace: "event-consultation",
 			});
 			cal("floatingButton", {
-				calLink:
-					"vedant-patil-0yfhvh/event-consultation",
-				config: { layout: "month_view" },
-				buttonText: "Book a Event",
-				hideButtonIcon: false,
-				buttonColor: "#1d0d2b",
+				calLink: "rj-prabhu/event-consultation",
+				config: {
+					layout: "month_view",
+					theme: "auto",
+				},
+				buttonText: "Book an event",
+				buttonColor: "#0d001b",
 				buttonTextColor: "#ffffff",
 			});
 			cal("ui", {
-				cssVarsPerTheme: {
-					light: { "cal-brand": "#000000" },
-				},
 				hideEventTypeDetails: false,
 				layout: "month_view",
 			});
