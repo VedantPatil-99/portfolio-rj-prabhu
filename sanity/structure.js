@@ -1,14 +1,10 @@
 import {
-	AsteriskIcon,
-	BookIcon,
 	CaseIcon,
 	CogIcon,
 	CommentIcon,
-	ComposeIcon,
-	DocumentIcon,
+	CalendarIcon,
 	DocumentsIcon,
 	InlineIcon,
-	ProjectsIcon,
 	RocketIcon,
 	StarIcon,
 	TagIcon,
@@ -48,6 +44,15 @@ export const structure = (S) =>
 									S.documentTypeList(
 										"service",
 									).title("Services"),
+								),
+							S.listItem()
+								.title("Events")
+								.icon(CalendarIcon)
+								.schemaType("event")
+								.child(
+									S.documentTypeList(
+										"event",
+									).title("Events"),
 								),
 						]),
 				),

@@ -1,4 +1,5 @@
 export { AboutSection } from "./AboutSection";
+import FeedbackSection from "./FeedbackSection";
 export { AchievementsSection } from "./AchievementsSection";
 export { ContactForm } from "./ContactForm";
 export { ContactSection } from "./ContactSection";
@@ -6,7 +7,8 @@ export { ExperienceSection } from "./ExperienceSection";
 export { HeroSection } from "./HeroSection";
 export { ServicesSection } from "./ServicesSection";
 export { TestimonialsSection } from "./TestimonialsSection";
-// export { SkillsSection } from "./SkillsSection";
+export { EventsSection } from "./EventsSection";
+export { FeedbackSection } from "./FeedbackSection";
 // export { BlogSection } from "./BlogSection";
 // export { EducationSection } from "./EducationSection";
 // export { ProjectsSection } from "./ProjectsSection";

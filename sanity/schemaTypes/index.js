@@ -7,6 +7,7 @@ import service from "./service";
 import skill from "./skill";
 import siteSettings from "./siteSettings";
 import testimonial from "./testimonial";
+import event from "./event";
 
 export const schema = {
 	types: [
@@ -19,5 +20,6 @@ export const schema = {
 		contact,
 		siteSettings,
 		navigation,
+		event,
 	],
 };

@@ -2,13 +2,14 @@ import {
 	AboutSection,
 	AchievementsSection,
 	ContactSection,
+	EventsSection,
 	ExperienceSection,
 	HeroSection,
 	ServicesSection,
 	TestimonialsSection,
+	FeedbackSection,
 } from "@/components/sections";
 import FloatingBookNow from "./FloatingBookNow";
-import FeedbackSection from "./FeedbackSection";
 
 async function PortfolioContent() {
 	return (
@@ -16,10 +17,11 @@ async function PortfolioContent() {
 			<FloatingBookNow />
 			<HeroSection />
 			<AboutSection />
-			<TestimonialsSection />
+			<EventsSection />
 			<ExperienceSection />
 			<AchievementsSection />
 			<ServicesSection />
+			<TestimonialsSection />
 			<ContactSection />
 			<FeedbackSection />
 		</>

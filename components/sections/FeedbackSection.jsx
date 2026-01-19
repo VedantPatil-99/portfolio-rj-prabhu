@@ -1,6 +1,6 @@
 import React from "react";
 
-const FeedbackSection = () => {
+export function FeedbackSection() {
 	return (
 		<section
 			id="feedback"
@@ -32,6 +32,4 @@ const FeedbackSection = () => {
 			</div>
 		</section>
 	);
-};
-
-export default FeedbackSection;
+}
